@@ -1,0 +1,11 @@
+<form #form="ngForm" (ngSubmit)="buscar()" class="d-flex">
+  <input
+    class="form-control me-2"
+    type="search"
+    placeholder="Buscar"
+    aria-label="Buscar"
+    name="search"
+    [(ngModel)]="search"
+  />
+  <button class="btn btn-outline-danger" type="submit">Buscar</button>
+</form>
